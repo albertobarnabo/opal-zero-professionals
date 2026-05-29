@@ -5,7 +5,7 @@
 
 **The WASM tool registry that gives OpalZero agents their superpowers.**
 
-Professionals are Rust crates that compile to WebAssembly and extend what OpalZero agents can do at runtime — without touching the core engine. Drop a `.wasm` binary into the registry directory and the kernel picks it up on next start. No recompilation, no config changes, no restarts beyond the initial load.
+Apps delegate their AI to the [OpalZero kernel](https://github.com/albertobarnabo/opalzero-engine) — and **Professionals are how you widen what the kernel can do.** Each one is a Rust crate that compiles to WebAssembly and extends what OpalZero agents can do at runtime, without touching the core engine. Drop a `.wasm` binary into the registry directory and the kernel picks it up on next start. No recompilation, no config changes, no restarts beyond the initial load. Every Professional you add becomes a capability every delegating app inherits for free.
 
 ---
 
