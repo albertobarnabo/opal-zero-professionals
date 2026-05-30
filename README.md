@@ -76,7 +76,9 @@ cp pkg/currency_converter_bg.wasm /path/to/opalzero/registry/
 
 ## Contributing
 
-Full contributor guide — manifest format, tool schema, testing — at [albertobarnabo.it/opalzero/docs](https://albertobarnabo.it/opalzero/docs).
+**New contributors welcome — this is the easiest place to start.** Pick a [`good first issue`](https://github.com/albertobarnabo/opal-zero-professionals/issues?q=is%3Aopen+label%3A%22good+first+issue%22), comment to claim it, and follow **[CONTRIBUTING.md](./CONTRIBUTING.md)** — you can ship a new tool in an afternoon, without touching the core engine.
+
+Full docs: [albertobarnabo.com/opal-zero/docs](https://albertobarnabo.com/opal-zero/docs).
 
 ---
 
