@@ -9,6 +9,17 @@ Apps delegate their AI to the [OpalZero kernel](https://github.com/albertobarnab
 
 ---
 
+## 🔭 OpalGlimpse — the first product built on OpalZero *(coming soon)*
+
+Autonomous monitoring powered by OpalZero: point it at markets, competitors, or any signal — it runs on a schedule and shows you **exactly what changed**, as structured diffs, not noise. *Watch the world change while you sleep.*
+
+It launches as a hosted SaaS, and **we deploy it once there's enough interest.** Want early access?
+
+- 👍 or comment on the **[OpalGlimpse early-access issue →](https://github.com/albertobarnabo/opal-zero-engine/issues/1)**
+- or email **albertobarnabo@gmail.com**
+
+---
+
 ## Built-in tools
 
 | # | Tool | What it does |
