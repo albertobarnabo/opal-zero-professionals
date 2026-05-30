@@ -1,0 +1,21 @@
+# This crate compiles to a WASM professional for the OpalZero kernel.
+# Build it separately (wasm32-wasip1 target) then copy both the binary
+# AND the manifest to opalzero-core/professionals/:
+#
+#   cargo build --target wasm32-wasip1 --release
+#   cp target/wasm32-wasip1/release/opalzero_util.wasm \
+#      ../../opalzero-core/professionals/util.wasm
+#   cp manifest.json \
+#      ../../opalzero-core/professionals/manifests/util.json
+#
+# Or run `./build.sh` from the opalzero-professionals/ root to build all tools.
+[workspace]
+
+[package]
+name = "opalzero-util"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde      = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

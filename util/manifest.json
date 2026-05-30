@@ -1,0 +1,19 @@
+{
+  "name": "util",
+  "description": "Generates UUID v4 identifiers and SHA-256 hashes of text",
+  "is_async": false,
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "op": {
+        "type": "string",
+        "description": "The operation to perform: 'uuid' or 'sha256'"
+      },
+      "text": {
+        "type": "string",
+        "description": "Text to hash (required when op is 'sha256')"
+      }
+    },
+    "required": ["op"]
+  }
+}
